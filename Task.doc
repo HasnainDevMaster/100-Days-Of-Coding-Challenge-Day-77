@@ -1,0 +1,54 @@
+100 Days Of Coding Challenge!
+
+Day-77 Task:
+Read and understand the following Visual Guide about SSL, TLS, and SSH protocols.
+
+SSL vs TLS vs SSH Protocols https://roadmap.sh/guides/ssl-tls-https-ssh
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+1. SSL (Secure Sockets Layer):
+
+* Overview: SSL is a cryptographic protocol designed to secure communications over a network.
+It was widely used in web browsers and servers to protect data transmission.
+
+* How It Works: SSL encrypts the data between the client (like a browser) and the server.
+This prevents third parties from reading or altering the data being transferred.
+
+* History: SSL was replaced by TLS due to vulnerabilities,
+but the term "SSL" is still used colloquially to refer to this kind of security protocol.
+
+//--------------------------------------------------------------------------------------------
+
+2. TLS (Transport Layer Security):
+
+* Overview: TLS is the successor to SSL and is more secure.
+It is the modern standard for encrypting network communications, especially in HTTPS,
+emails, and other protocols.
+
+* TLS Handshake: When a connection is established,
+TLS uses a process called the "TLS handshake" to authenticate the communicating parties,
+agree on encryption methods, and exchange encryption keys securely.
+
+* Versions: TLS has had multiple versions to address security flaws and improve functionality.
+The most widely used versions are TLS 1.2 and TLS 1.3.
+
+//-------------------------------------------------------------------------------------------
+
+3. SSH (Secure Shell):
+
+* Overview: SSH is a network protocol used for securely accessing and managing remote servers over an unsecured network.
+It provides a secure channel for tasks such as logging into a server, executing commands, and transferring files.
+
+* SSH Authentication: SSH uses public key cryptography for authentication.
+The server has a public key, and the client must authenticate using a private key or password.
+
+* Usage: It is commonly used for secure system administration, file transfers via SFTP, and tunneling.
+
+Differences:
+
+* SSL vs TLS: TLS is the newer, more secure protocol that replaces SSL.
+While SSL is now considered obsolete, people still often refer to TLS as "SSL" informally.
+
+* TLS vs SSH: TLS is used mainly for encrypting web-based communication (such as HTTPS),
+while SSH is used for secure system administration and file transfers over a network.
